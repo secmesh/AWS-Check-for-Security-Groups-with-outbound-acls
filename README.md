@@ -1,0 +1,1 @@
+At times, for Auditing purposes, you may want to see which of your AWs security groups have Outbound ACLs. This script will log into your AWS enviroment and print out the security groups which have valid outbound ACLs (obviously the only without the standard 0.0.0.0/0 allo all rule).
